@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use DawnDock in work you publish, please cite it.
-title: "DawnDock: a multi-engine GUI application for molecular docking with deep learning-based scoring"
+title: "DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring"
 version: "1.0.0"
 type: software
 authors:
@@ -9,7 +9,7 @@ authors:
     affiliation: "Dawn of Bioinformatics Ltd., Bangladesh"
     email: dawn.of.bioinformatics@gmail.com
 abstract: >-
-  DawnDock is a free Windows desktop application for molecular docking. It runs
+  DawnDock is a Windows desktop application for molecular docking. It runs
   five docking engines from one window, including GNINA, which scores poses
   with a convolutional neural network rather than with a classical scoring
   function alone. It covers receptor and ligand preparation, search box
