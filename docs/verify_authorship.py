@@ -4,7 +4,7 @@ Runnable by anyone, including someone who distrusts the program entirely, with
 nothing but this script and a crypto library:
 
     pip install cryptography
-    python verify_authorship.py --installer DawnDock-Setup-1.0.0.exe
+    python verify_authorship.py --installer DawnDock-Setup-1.0.1.exe
 
 A valid result means the installer was signed with the private key that matches
 the published public key, a key only the author holds. An invalid result means
@@ -40,7 +40,8 @@ try:
 except ModuleNotFoundError:
     raise SystemExit("this needs the cryptography library:  pip install cryptography")
 
-# DawnDock's Ed25519 public key, the one the 1.0.0 release was signed with.
+# DawnDock's Ed25519 public key. Every release is signed with the same key, so
+# this one file verifies 1.0.0, 1.0.1 and whatever follows.
 #
 # Embedded so the script is self-contained: a reader who has only this file and
 # an installer can still check the signature. A .pem beside the script is used
@@ -199,7 +200,7 @@ def main() -> int:
     if statement is None and installer is None:
         print("\nnothing was checked. Point it at an installer:")
         print("  python verify_authorship.py --installer "
-              "DawnDock-Setup-1.0.0.exe")
+              "DawnDock-Setup-1.0.1.exe")
         return 2
     return 0 if (statement is not False and installer is not False) else 1
 
