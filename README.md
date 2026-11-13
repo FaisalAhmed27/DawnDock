@@ -17,7 +17,7 @@ Get the installer from the [Releases page](../../releases/latest).
 
 | | |
 |---|---|
-| **Installer** | `DawnDock-Setup-1.0.0.exe` (298 MB) |
+| **Installer** | `DawnDock-Setup-1.0.1.exe` (298 MB) |
 | **Requires** | Windows 10 or 11, 64-bit. No administrator rights. |
 | **Disk space** | About 1 GB once installed |
 | **Also needed** | Nothing. No Python, no compiler, no separate toolkit. |
@@ -27,17 +27,17 @@ installer is not yet signed with a paid code-signing certificate. Choose
 **More info**, then **Run anyway**. You can check the download first:
 
 ```powershell
-Get-FileHash .\DawnDock-Setup-1.0.0.exe -Algorithm SHA256
+Get-FileHash .\DawnDock-Setup-1.0.1.exe -Algorithm SHA256
 ```
 
-It should read `1ec2f39d20167ff80a162c97ba1564c65a52426d7b3c3d28b085c64ed9668045`.
+It should read `6ac85686171fa845533adbd487482977bcc01a7821cb6fce1707fcabed27dd8f`.
 
 A matching checksum tells you the download is intact. It does not tell you who
 made it, so each release is also signed with an Ed25519 key:
 
 ```powershell
 pip install cryptography
-python verify_authorship.py --installer DawnDock-Setup-1.0.0.exe
+python verify_authorship.py --installer DawnDock-Setup-1.0.1.exe
 ```
 
 [`docs/verify_authorship.py`](docs/verify_authorship.py) needs nothing else:
@@ -89,7 +89,7 @@ comparison with any other docking program.
 
 ## Documentation
 
-The [user manual](docs/DawnDock_User_Manual_v1.0.0.pdf) has a quick-run
+The [user manual](docs/DawnDock_User_Manual_v1.0.1.pdf) has a quick-run
 tutorial that takes a first-time user through one complete docking, and a
 reference guide to every panel and setting. Its screenshots come from the
 running program.
@@ -111,10 +111,10 @@ and AutoGrid 4 are GPL-2.0, included as unmodified separate programs.
 
 If DawnDock helped with work you publish, please cite it:
 
-> Ahmed, S. F. (2026). DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring (Version 1.0.0) [Computer software]. Dawn of Bioinformatics Ltd. https://doi.org/10.5281/zenodo.24185577
+> Ahmed, S. F. (2026). DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring (Version 1.0.1) [Computer software]. Dawn of Bioinformatics Ltd. https://doi.org/10.5281/zenodo.24198678
 
 The DOI resolves to the archived release, so a paper points at the exact version
-its results came from: [`10.5281/zenodo.24185577`](https://doi.org/10.5281/zenodo.24185577).
+its results came from: [`10.5281/zenodo.24198678`](https://doi.org/10.5281/zenodo.24198678).
 [`CITATION.cff`](CITATION.cff) carries the same details in a form GitHub and
 reference managers read directly, and the same citation is in the program under
 **Help**, then **About**.

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use DawnDock in work you publish, please cite it.
 title: "DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring"
-version: "1.0.0"
+version: "1.0.1"
 type: software
 authors:
   - family-names: Ahmed
@@ -31,7 +31,7 @@ keywords:
   - Windows
   - desktop application
   - Bangladesh
-doi: "10.5281/zenodo.24185577"
+doi: "10.5281/zenodo.24198678"
 license-url: "https://github.com/FaisalAhmed27/DawnDock/blob/main/LICENSE.txt"
 repository-artifact: "https://github.com/FaisalAhmed27/DawnDock/releases/latest"
 repository-code: "https://github.com/FaisalAhmed27/DawnDock"
