@@ -113,11 +113,17 @@ If DawnDock helped with work you publish, please cite it:
 
 > Ahmed, S. F. (2026). DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring (Version 1.0.1) [Computer software]. Dawn of Bioinformatics Ltd. https://doi.org/10.5281/zenodo.24198678
 
-The DOI resolves to the archived release, so a paper points at the exact version
-its results came from: [`10.5281/zenodo.24198678`](https://doi.org/10.5281/zenodo.24198678).
-[`CITATION.cff`](CITATION.cff) carries the same details in a form GitHub and
-reference managers read directly, and the same citation is in the program under
-**Help**, then **About**.
+That DOI belongs to this exact version and never moves, so a paper points at the
+code that produced its results: [`10.5281/zenodo.24198678`](https://doi.org/10.5281/zenodo.24198678). Cite the
+version you actually ran. [`CITATION.cff`](CITATION.cff) carries the same details
+in a form GitHub and reference managers read directly, and the same citation is
+in the program under **Help**, then **About**.
+
+Zenodo also gives DawnDock one DOI covering every version, which always resolves
+to the newest: [`10.5281/zenodo.24185576`](https://doi.org/10.5281/zenodo.24185576). Use that where
+you mean the software in general — a bookmark, a link, a software list — since it
+will not go stale. Do not use it in a paper: it will point at a later release
+than the one you ran.
 
 Please also cite the engine you actually used; DawnDock runs these programs, it
 does not replace them, and their authors deserve the credit. The manual lists
