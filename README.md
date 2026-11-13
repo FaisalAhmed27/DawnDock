@@ -1,6 +1,6 @@
 # DawnDock
 
-**Free molecular docking for Windows, with neural-network pose scoring.**
+**DawnDock: a multi-engine GUI application for molecular docking with deep learning-based scoring**
 
 DawnDock runs five docking engines from one window and scores poses with a
 convolutional neural network, not only with a classical scoring function. Load a
