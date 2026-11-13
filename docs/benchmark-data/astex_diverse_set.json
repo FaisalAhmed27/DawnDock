@@ -1,0 +1,342 @@
+[
+ {
+  "pdb": "1G9V",
+  "ligand": "RQ3"
+ },
+ {
+  "pdb": "1GKC",
+  "ligand": "NFH"
+ },
+ {
+  "pdb": "1GM8",
+  "ligand": "SOX"
+ },
+ {
+  "pdb": "1GPK",
+  "ligand": "HUP"
+ },
+ {
+  "pdb": "1HNN",
+  "ligand": "SKF"
+ },
+ {
+  "pdb": "1HP0",
+  "ligand": "AD3"
+ },
+ {
+  "pdb": "1HQ2",
+  "ligand": "PH2"
+ },
+ {
+  "pdb": "1HVY",
+  "ligand": "D16"
+ },
+ {
+  "pdb": "1HWI",
+  "ligand": "115"
+ },
+ {
+  "pdb": "1HWW",
+  "ligand": "SWA"
+ },
+ {
+  "pdb": "1IA1",
+  "ligand": "TQ3"
+ },
+ {
+  "pdb": "1IG3",
+  "ligand": "VIB"
+ },
+ {
+  "pdb": "1J3J",
+  "ligand": "CP6"
+ },
+ {
+  "pdb": "1JD0",
+  "ligand": "AZM"
+ },
+ {
+  "pdb": "1JJE",
+  "ligand": "BYS"
+ },
+ {
+  "pdb": "1JLA",
+  "ligand": "TNK"
+ },
+ {
+  "pdb": "1K3U",
+  "ligand": "IAD"
+ },
+ {
+  "pdb": "1KE5",
+  "ligand": "LS1"
+ },
+ {
+  "pdb": "1KZK",
+  "ligand": "JE2"
+ },
+ {
+  "pdb": "1L2S",
+  "ligand": "STC"
+ },
+ {
+  "pdb": "1L7F",
+  "ligand": "BCZ"
+ },
+ {
+  "pdb": "1LPZ",
+  "ligand": "CMB"
+ },
+ {
+  "pdb": "1LRH",
+  "ligand": "NLA"
+ },
+ {
+  "pdb": "1M2Z",
+  "ligand": "DEX"
+ },
+ {
+  "pdb": "1MEH",
+  "ligand": "MOA"
+ },
+ {
+  "pdb": "1MMV",
+  "ligand": "3AR"
+ },
+ {
+  "pdb": "1MZC",
+  "ligand": "BNE"
+ },
+ {
+  "pdb": "1N1M",
+  "ligand": "A3M"
+ },
+ {
+  "pdb": "1N2J",
+  "ligand": "PAF"
+ },
+ {
+  "pdb": "1N2V",
+  "ligand": "BDI"
+ },
+ {
+  "pdb": "1N46",
+  "ligand": "PFA"
+ },
+ {
+  "pdb": "1NAV",
+  "ligand": "IH5"
+ },
+ {
+  "pdb": "1OF1",
+  "ligand": "SCT"
+ },
+ {
+  "pdb": "1OF6",
+  "ligand": "DTY"
+ },
+ {
+  "pdb": "1OPK",
+  "ligand": "P16"
+ },
+ {
+  "pdb": "1OQ5",
+  "ligand": "CEL"
+ },
+ {
+  "pdb": "1OWE",
+  "ligand": "675"
+ },
+ {
+  "pdb": "1OYT",
+  "ligand": "FSN"
+ },
+ {
+  "pdb": "1P2Y",
+  "ligand": "NCT"
+ },
+ {
+  "pdb": "1P62",
+  "ligand": "GEO"
+ },
+ {
+  "pdb": "1PMN",
+  "ligand": "984"
+ },
+ {
+  "pdb": "1Q1G",
+  "ligand": "MTI"
+ },
+ {
+  "pdb": "1Q41",
+  "ligand": "IXM"
+ },
+ {
+  "pdb": "1Q4G",
+  "ligand": "BFL"
+ },
+ {
+  "pdb": "1R1H",
+  "ligand": "BIR"
+ },
+ {
+  "pdb": "1R55",
+  "ligand": "097"
+ },
+ {
+  "pdb": "1R58",
+  "ligand": "AO5"
+ },
+ {
+  "pdb": "1R9O",
+  "ligand": "FLP"
+ },
+ {
+  "pdb": "1S19",
+  "ligand": "MC9"
+ },
+ {
+  "pdb": "1S3V",
+  "ligand": "TQD"
+ },
+ {
+  "pdb": "1SG0",
+  "ligand": "STL"
+ },
+ {
+  "pdb": "1SJ0",
+  "ligand": "E4D"
+ },
+ {
+  "pdb": "1SQ5",
+  "ligand": "PAU"
+ },
+ {
+  "pdb": "1SQN",
+  "ligand": "NDR"
+ },
+ {
+  "pdb": "1T40",
+  "ligand": "ID5"
+ },
+ {
+  "pdb": "1T46",
+  "ligand": "STI"
+ },
+ {
+  "pdb": "1T9B",
+  "ligand": "1CS"
+ },
+ {
+  "pdb": "1TOW",
+  "ligand": "CRZ"
+ },
+ {
+  "pdb": "1TT1",
+  "ligand": "KAI"
+ },
+ {
+  "pdb": "1TZ8",
+  "ligand": "DES"
+ },
+ {
+  "pdb": "1U1C",
+  "ligand": "BAU"
+ },
+ {
+  "pdb": "1U4D",
+  "ligand": "DBQ"
+ },
+ {
+  "pdb": "1UML",
+  "ligand": "FR4"
+ },
+ {
+  "pdb": "1UNL",
+  "ligand": "RRC"
+ },
+ {
+  "pdb": "1UOU",
+  "ligand": "CMU"
+ },
+ {
+  "pdb": "1V0P",
+  "ligand": "PVB"
+ },
+ {
+  "pdb": "1V48",
+  "ligand": "HA1"
+ },
+ {
+  "pdb": "1V4S",
+  "ligand": "MRK"
+ },
+ {
+  "pdb": "1VCJ",
+  "ligand": "IBA"
+ },
+ {
+  "pdb": "1W1P",
+  "ligand": "GIO"
+ },
+ {
+  "pdb": "1W2G",
+  "ligand": "THM"
+ },
+ {
+  "pdb": "1X8X",
+  "ligand": "TYR"
+ },
+ {
+  "pdb": "1XM6",
+  "ligand": "5RM"
+ },
+ {
+  "pdb": "1XOQ",
+  "ligand": "ROF"
+ },
+ {
+  "pdb": "1XOZ",
+  "ligand": "CIA"
+ },
+ {
+  "pdb": "1Y6B",
+  "ligand": "AAX"
+ },
+ {
+  "pdb": "1YGC",
+  "ligand": "905"
+ },
+ {
+  "pdb": "1YQY",
+  "ligand": "915"
+ },
+ {
+  "pdb": "1YV3",
+  "ligand": "BIT"
+ },
+ {
+  "pdb": "1YVF",
+  "ligand": "PH7"
+ },
+ {
+  "pdb": "1YWR",
+  "ligand": "LI9"
+ },
+ {
+  "pdb": "1Z95",
+  "ligand": "198"
+ },
+ {
+  "pdb": "2BM2",
+  "ligand": "PM2"
+ },
+ {
+  "pdb": "2BR1",
+  "ligand": "PFP"
+ },
+ {
+  "pdb": "2BSM",
+  "ligand": "BSM"
+ }
+]
