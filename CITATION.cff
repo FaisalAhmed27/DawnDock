@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: If you use DawnDock in work you publish, please cite it.
+title: "DawnDock: a free Windows application for molecular docking with neural-network pose scoring"
+version: "1.0.0"
+type: software
+authors:
+  - family-names: Ahmed
+    given-names: Sk. Faisal
+    affiliation: "Dawn of Bioinformatics Ltd., Bangladesh"
+    email: dawn.of.bioinformatics@gmail.com
+abstract: >-
+  DawnDock is a free Windows desktop application for molecular docking. It runs
+  five docking engines from one window, including GNINA, which scores poses
+  with a convolutional neural network rather than with a classical scoring
+  function alone. It covers receptor and ligand preparation, search box
+  definition, docking, pose inspection in 3D and export, without a command
+  line.
+keywords:
+  - molecular docking
+  - virtual screening
+  - drug discovery
+  - structure-based drug design
+  - bioinformatics
+  - cheminformatics
+  - deep learning
+  - convolutional neural network
+  - GNINA
+  - AutoDock Vina
+  - protein-ligand interaction
+  - Windows
+  - desktop application
+  - Bangladesh
+doi: "10.5281/zenodo.24185577"
+license-url: "https://github.com/FaisalAhmed27/DawnDock/blob/main/LICENSE.txt"
+repository-artifact: "https://github.com/FaisalAhmed27/DawnDock/releases/latest"
+repository-code: "https://github.com/FaisalAhmed27/DawnDock"
+url: "https://dawnofbioinformatics.com"

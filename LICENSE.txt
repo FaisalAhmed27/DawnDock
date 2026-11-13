@@ -1,0 +1,123 @@
+DawnDock License Agreement (v1.0)
+
+Copyright (c) 2026
+Sk. Faisal Ahmed. All rights reserved. Distributed by Dawn of Bioinformatics
+Ltd., Bangladesh, under license from the owner.
+
+IMPORTANT — READ THIS BEFORE INSTALLING. By installing, copying, or using
+DawnDock, you agree to this Agreement. If you do not agree, do not install or
+use it, and remove any copy you have.
+
+1. Ownership. DawnDock is the sole property of Sk. Faisal Ahmed ("the Owner").
+   It is licensed, not sold.
+
+2. Free use. You may use DawnDock free of charge for academic, nonprofit,
+   educational, and personal research.
+
+3. Commercial use. Use by companies, or for paid services, consulting, or
+   commercial R&D, requires separate written permission from the owner or Dawn
+   of Bioinformatics Ltd.
+
+4. Restrictions. You may not sell, share, modify, or reverse engineer DawnDock,
+   or remove its notices. Please refer others to the official download page.
+
+5. Publications. You may publish your results. Please cite DawnDock as described
+   in its documentation.
+
+6. Third-party software. Included and downloadable components (such as AutoDock
+   Vina and LeDock) remain under their own licenses. See THIRD-PARTY-NOTICES.txt.
+
+7. No warranty. DawnDock is provided "as is." Results are computational
+   predictions; the Owner and Dawn of Bioinformatics Ltd. accept no liability
+   for their use.
+
+8. Changes and termination. Terms for future versions may change. This license
+   ends if you break it, and you must then delete DawnDock. Governed by the laws
+   of Bangladesh, whose courts have jurisdiction, without prejudice to any
+   mandatory consumer protection you have where you live.
+
+9. Limitation of liability. To the fullest extent permitted by law, in no event
+   will the Owner or Dawn of Bioinformatics Ltd. be liable for any indirect,
+   incidental, special, consequential, exemplary, or punitive damages, nor for
+   any loss of profits, data, research time, or goodwill, arising out of or
+   relating to DawnDock, however caused, even if advised of the possibility. To
+   the extent any liability cannot be excluded, it is limited to the amount you
+   paid for DawnDock — which, under this free licence, is zero. Nothing here
+   excludes liability for death or personal injury caused by negligence, for
+   fraud, or for anything that cannot lawfully be excluded.
+
+10. No obligation to support. The Owner is under no obligation to provide
+    support, maintenance, updates, or any future version, and may change or
+    discontinue DawnDock at any time.
+
+11. Privacy. DawnDock runs on your own computer and sends no personal data. If
+    you use "Check for updates", it contacts the project website only to read
+    the current version number; nothing about you, your structures, or your
+    results is sent.
+
+12. Entire agreement; severability. This Agreement, together with
+    THIRD-PARTY-NOTICES.txt and the Annex below, is the entire agreement between
+    you and the Owner concerning DawnDock, and replaces any earlier
+    understanding. If any provision is held unenforceable, the rest remain in
+    full force.
+
+Contact: dawn.of.bioinformatics@gmail.com
+Web: https://dawnofbioinformatics.com
+
+
+--------------------------------------------------------------------------------
+ANNEX - THE OPEN-SOURCE COMPONENTS
+
+This annex forms part of the agreement above. It exists because some of the
+software distributed with DawnDock is licensed on terms that grant you rights
+directly, and those rights cannot be taken away by section 4 or by anything else
+in this agreement. Where this annex and the sections above disagree, this annex
+governs the components it names.
+
+A. The components, and their licences, are listed in full in
+   THIRD-PARTY-NOTICES.txt, which is installed alongside this file.
+
+B. Components under the GNU Lesser General Public License. Qt (supplied through
+   PySide6 and shiboken6) and Meeko are LGPL-licensed. In respect of those
+   components only, and notwithstanding section 4:
+
+     (i)   you may modify them, and run DawnDock against your modified versions;
+
+     (ii)  you may reverse engineer DawnDock so far as is necessary to debug
+           those modifications; and
+
+     (iii) DawnDock is distributed in a form that allows this. The Qt libraries
+           are ordinary .dll files in the installation folder and may be replaced
+           with your own builds of the same version. Meeko is a Python package;
+           place your own copy in the installation folder as a "meeko" directory
+           beside the executable and it will be used in preference to the
+           bundled one.
+
+C. Components under the GNU General Public License. AutoDock 4 and AutoGrid 4
+   are GPL-2.0 and are included as unmodified, separate executables. DawnDock
+   runs them as external programs; it is not a derivative work of them, and they
+   are not a derivative work of it. Your rights in those two programs come from
+   the GPL, not from this agreement.
+
+D. Source code. Where a licence in THIRD-PARTY-NOTICES.txt requires that source
+   code be made available, it is obtainable from the project addresses given
+   there. You may also request it in writing from the contact address above, and
+   it will be supplied.
+
+E. Section 4 is otherwise unaffected. It continues to apply in full to DawnDock
+   itself - the program written by the Owner - and to every component not named
+   in this annex.
+
+--------------------------------------------------------------------------------
+A NOTE ON WHAT THE RESULTS MEAN
+
+A docking score is an estimate produced by a scoring function. It is not a
+measured binding free energy and it does not reliably predict potency. Poses,
+interactions, affinities and rankings reported by DawnDock are computational
+predictions and can be wrong.
+
+DawnDock is a research tool. It is not a medical device and is not for
+diagnosis, treatment, or any clinical decision.
+
+--------------------------------------------------------------------------------
+DawnDock 1.0.0
