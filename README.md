@@ -2,6 +2,7 @@
 
 **DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring**
 
+Free molecular docking for Windows, with neural-network pose scoring.
 DawnDock runs five docking engines from one window and scores poses with a
 convolutional neural network, not only with a classical scoring function. Load a
 protein, pick a pocket, dock one ligand or a library, and read the poses,
@@ -29,10 +30,28 @@ installer is not yet signed with a paid code-signing certificate. Choose
 Get-FileHash .\DawnDock-Setup-1.0.0.exe -Algorithm SHA256
 ```
 
-It should read `7148ab203bdf030de18dddb702275d4f726ae5f9215b298b6f031c885ec687ed`.
+It should read `1ec2f39d20167ff80a162c97ba1564c65a52426d7b3c3d28b085c64ed9668045`.
 
-Each release is also signed with an Ed25519 key. `verify_authorship.py` and the
-published public key check both the installer and the authorship statement.
+A matching checksum tells you the download is intact. It does not tell you who
+made it, so each release is also signed with an Ed25519 key:
+
+```powershell
+pip install cryptography
+python verify_authorship.py --installer DawnDock-Setup-1.0.0.exe
+```
+
+[`docs/verify_authorship.py`](docs/verify_authorship.py) needs nothing else:
+download it with the installer and its `.sig`, and run it. The public key it
+checks against is [`docs/dawndock-public-key.pem`](docs/dawndock-public-key.pem),
+whose fingerprint is
+
+```
+SHA256:g7QtjQ1qYTFPg4735rpfVcUnLau1sb+nRvl58Fvh76g
+```
+
+The script prints that fingerprint every run. Compare it with the line above
+before trusting the result, because a signature checked against a key taken
+from the same download only proves the download agrees with itself.
 
 ## The five engines
 
@@ -90,9 +109,19 @@ and AutoGrid 4 are GPL-2.0, included as unmodified separate programs.
 
 ## Citing
 
-See [`CITATION.cff`](CITATION.cff). Please also cite the engine you actually
-used; DawnDock runs these programs, it does not replace them, and their authors
-deserve the credit. The manual lists the references.
+If DawnDock helped with work you publish, please cite it:
+
+> Ahmed, S. F. (2026). DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring (Version 1.0.0) [Computer software]. Dawn of Bioinformatics Ltd. https://doi.org/10.5281/zenodo.24185577
+
+The DOI resolves to the archived release, so a paper points at the exact version
+its results came from: [`10.5281/zenodo.24185577`](https://doi.org/10.5281/zenodo.24185577).
+[`CITATION.cff`](CITATION.cff) carries the same details in a form GitHub and
+reference managers read directly, and the same citation is in the program under
+**Help**, then **About**.
+
+Please also cite the engine you actually used; DawnDock runs these programs, it
+does not replace them, and their authors deserve the credit. The manual lists
+the references, and so does the About window.
 
 ## A note on what docking can tell you
 

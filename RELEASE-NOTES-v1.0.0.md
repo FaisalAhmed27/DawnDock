@@ -30,7 +30,7 @@ with a code-signing certificate. Choose **More info**, then **Run anyway**.
 SHA-256 of the installer:
 
 ```
-7148ab203bdf030de18dddb702275d4f726ae5f9215b298b6f031c885ec687ed
+1ec2f39d20167ff80a162c97ba1564c65a52426d7b3c3d28b085c64ed9668045
 ```
 
 ## Known limitations
@@ -40,6 +40,13 @@ SHA-256 of the installer:
 - The installer is not code-signed yet, so Windows shows a publisher warning.
 - Virtual screening has not been benchmarked. The figures above are redocking
   accuracy, which is a different question from ranking actives against decoys.
+
+## Citing this release
+
+> Ahmed, S. F. (2026). DawnDock: a multi-engine GUI application for molecular docking with deep learning scoring (Version 1.0.0) [Computer software]. Dawn of Bioinformatics Ltd. https://doi.org/10.5281/zenodo.24185577
+
+The DOI points at this archived version, not at a moving target, so results
+stay traceable to the build that produced them.
 
 ## Licence
 

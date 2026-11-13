@@ -7,9 +7,10 @@ authors:
   - family-names: Ahmed
     given-names: Sk. Faisal
     affiliation: "Dawn of Bioinformatics Ltd., Bangladesh"
+    orcid: "https://orcid.org/0000-0001-9299-1240"
     email: dawn.of.bioinformatics@gmail.com
 abstract: >-
-  DawnDock is a Windows desktop application for molecular docking. It runs
+  DawnDock is a free Windows desktop application for molecular docking. It runs
   five docking engines from one window, including GNINA, which scores poses
   with a convolutional neural network rather than with a classical scoring
   function alone. It covers receptor and ligand preparation, search box
